@@ -1,0 +1,9 @@
+bite-of-pythonrvices:
+  algorithms-list:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: bite-of-python
+    volumes:
+      - .:/opt/bite-of-python/app/
+    tty: true
