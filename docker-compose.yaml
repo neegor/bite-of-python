@@ -1,5 +1,6 @@
-bite-of-pythonrvices:
-  algorithms-list:
+version: "3"
+services:
+  bite-of-python:
     build:
       context: .
       dockerfile: ./Dockerfile
