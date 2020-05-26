@@ -1,10 +1,10 @@
 version: "3"
 services:
-  bite-of-python:
+  python-book:
     build:
       context: .
       dockerfile: ./Dockerfile
-    container_name: bite-of-python
+    container_name: python-book
     volumes:
-      - .:/opt/bite-of-python/app/
+      - .:/home/app/python-book/
     tty: true

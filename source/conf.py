@@ -21,7 +21,7 @@ html_theme = 'alabaster'
 
 # -- Project information -----------------------------------------------------
 
-project = 'A Byte Of Python — русский перевод'
+project = 'Про Python'
 copyright = '2019, gorschal'
 author = 'gorschal'
 
